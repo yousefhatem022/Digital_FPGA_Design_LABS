@@ -1,0 +1,154 @@
+# Reading pref.tcl
+# //  Questa Sim-64
+# //  Version 2024.1 win64 Feb  1 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# vsim -gui -voptargs="+acc" work.tb 
+# Start time: 00:34:11 on Sep 08,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
+# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.tb(fast)
+# Loading work.FA_2bit_GL(fast)
+# Loading work.FA_2bit_SL(fast)
+# Loading work.HA_1bit(fast)
+# Loading work.FA_2bit_BL(fast)
+vsim -voptargs=+acc work.tb
+# End time: 00:34:48 on Sep 08,2026, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.tb 
+# Start time: 00:34:48 on Sep 08,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading work.tb(fast)
+# Loading work.FA_2bit_GL(fast)
+# Loading work.FA_2bit_SL(fast)
+# Loading work.HA_1bit(fast)
+# Loading work.FA_2bit_BL(fast)
+add wave -position insertpoint  \
+sim:/tb/A_tb \
+sim:/tb/B_tb \
+sim:/tb/Cin_tb \
+sim:/tb/Sum_GL \
+sim:/tb/Cout_GL \
+sim:/tb/Sum_SL \
+sim:/tb/Cout_SL \
+sim:/tb/Sum_BL \
+sim:/tb/Cout_BL
+run -all
+# ----------------------------------------------------------------
+# Input                     : A = 00, B = 00, Cin = 0
+# Gate-Level Output         : Sum = 00, Cout = 0
+# Structural-Level Output   : Sum = 00, Cout = 0
+# Behavioral-Level Output   : Sum = 00, Cout = 0
+# ----------------------------------------------------------------
+# Input                     : A = 00, B = 01, Cin = 0
+# Gate-Level Output         : Sum = 01, Cout = 0
+# Structural-Level Output   : Sum = 01, Cout = 0
+# Behavioral-Level Output   : Sum = 01, Cout = 0
+# ----------------------------------------------------------------
+# Input                     : A = 00, B = 10, Cin = 0
+# Gate-Level Output         : Sum = 10, Cout = 0
+# Structural-Level Output   : Sum = 10, Cout = 0
+# Behavioral-Level Output   : Sum = 10, Cout = 0
+# ----------------------------------------------------------------
+# Input                     : A = 00, B = 11, Cin = 0
+# Gate-Level Output         : Sum = 11, Cout = 0
+# Structural-Level Output   : Sum = 11, Cout = 0
+# Behavioral-Level Output   : Sum = 11, Cout = 0
+# ----------------------------------------------------------------
+# Input                     : A = 01, B = 00, Cin = 0
+# Gate-Level Output         : Sum = 01, Cout = 0
+# Structural-Level Output   : Sum = 01, Cout = 0
+# Behavioral-Level Output   : Sum = 01, Cout = 0
+# ----------------------------------------------------------------
+# Input                     : A = 01, B = 01, Cin = 0
+# Gate-Level Output         : Sum = 10, Cout = 0
+# Structural-Level Output   : Sum = 10, Cout = 0
+# Behavioral-Level Output   : Sum = 10, Cout = 0
+# ----------------------------------------------------------------
+# Input                     : A = 01, B = 10, Cin = 0
+# Gate-Level Output         : Sum = 11, Cout = 0
+# Structural-Level Output   : Sum = 11, Cout = 0
+# Behavioral-Level Output   : Sum = 11, Cout = 0
+# ----------------------------------------------------------------
+# Input                     : A = 01, B = 11, Cin = 0
+# Gate-Level Output         : Sum = 00, Cout = 1
+# Structural-Level Output   : Sum = 00, Cout = 1
+# Behavioral-Level Output   : Sum = 00, Cout = 1
+# ----------------------------------------------------------------
+# Input                     : A = 10, B = 00, Cin = 0
+# Gate-Level Output         : Sum = 10, Cout = 0
+# Structural-Level Output   : Sum = 10, Cout = 0
+# Behavioral-Level Output   : Sum = 10, Cout = 0
+# ----------------------------------------------------------------
+# Input                     : A = 10, B = 01, Cin = 0
+# Gate-Level Output         : Sum = 11, Cout = 0
+# Structural-Level Output   : Sum = 11, Cout = 0
+# Behavioral-Level Output   : Sum = 11, Cout = 0
+# ----------------------------------------------------------------
+# Input                     : A = 10, B = 10, Cin = 0
+# Gate-Level Output         : Sum = 00, Cout = 1
+# Structural-Level Output   : Sum = 00, Cout = 1
+# Behavioral-Level Output   : Sum = 00, Cout = 1
+# ----------------------------------------------------------------
+# Input                     : A = 10, B = 11, Cin = 0
+# Gate-Level Output         : Sum = 01, Cout = 1
+# Structural-Level Output   : Sum = 01, Cout = 1
+# Behavioral-Level Output   : Sum = 01, Cout = 1
+# ----------------------------------------------------------------
+# Input                     : A = 11, B = 00, Cin = 0
+# Gate-Level Output         : Sum = 11, Cout = 0
+# Structural-Level Output   : Sum = 11, Cout = 0
+# Behavioral-Level Output   : Sum = 11, Cout = 0
+# ----------------------------------------------------------------
+# Input                     : A = 11, B = 01, Cin = 0
+# Gate-Level Output         : Sum = 00, Cout = 1
+# Structural-Level Output   : Sum = 00, Cout = 1
+# Behavioral-Level Output   : Sum = 00, Cout = 1
+# ----------------------------------------------------------------
+# Input                     : A = 11, B = 10, Cin = 0
+# Gate-Level Output         : Sum = 01, Cout = 1
+# Structural-Level Output   : Sum = 01, Cout = 1
+# Behavioral-Level Output   : Sum = 01, Cout = 1
+# ----------------------------------------------------------------
+# Input                     : A = 11, B = 11, Cin = 0
+# Gate-Level Output         : Sum = 10, Cout = 1
+# Structural-Level Output   : Sum = 10, Cout = 1
+# Behavioral-Level Output   : Sum = 10, Cout = 1
+# ----------------------------------------------------------------
+# Input                     : A = 00, B = 00, Cin = 1
+# Gate-Level Output         : Sum = 01, Cout = 0
+# Structural-Level Output   : Sum = 01, Cout = 0
+# Behavioral-Level Output   : Sum = 01, Cout = 0
+# ----------------------------------------------------------------
+# Input                     : A = 01, B = 01, Cin = 1
+# Gate-Level Output         : Sum = 11, Cout = 0
+# Structural-Level Output   : Sum = 11, Cout = 0
+# Behavioral-Level Output   : Sum = 11, Cout = 0
+# ----------------------------------------------------------------
+# Input                     : A = 10, B = 10, Cin = 1
+# Gate-Level Output         : Sum = 01, Cout = 1
+# Structural-Level Output   : Sum = 01, Cout = 1
+# Behavioral-Level Output   : Sum = 01, Cout = 1
+# ----------------------------------------------------------------
+# Input                     : A = 11, B = 11, Cin = 1
+# Gate-Level Output         : Sum = 11, Cout = 1
+# Structural-Level Output   : Sum = 11, Cout = 1
+# Behavioral-Level Output   : Sum = 11, Cout = 1
+# ** Note: $finish    : ./Testbench.v(195)
+#    Time: 200 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at ./Testbench.v line 195
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {D:/Digital Design using FPGA_NTI/Verilog/2-Bit Full Adder/wave.do}
