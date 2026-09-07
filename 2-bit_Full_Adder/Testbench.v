@@ -190,7 +190,7 @@ module tb;
         $display("Input                     : A = %b, B = %b, Cin = %b", A_tb, B_tb, Cin_tb);
         $display("Gate-Level Output         : Sum = %b, Cout = %b", Sum_GL, Cout_GL);
         $display("Structural-Level Output   : Sum = %b, Cout = %b", Sum_SL, Cout_SL);
-        $display("Behavioral-Level Output   : Sum = %b, Cout = %b",
+        $display("Behavioral-Level Output   : Sum = %b, Cout = %b", Sum_BL, Cout_BL);
 
         $finish;
 
