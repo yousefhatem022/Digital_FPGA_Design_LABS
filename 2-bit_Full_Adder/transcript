@@ -1,0 +1,125 @@
+# vsim -c -do "run -all; quit" tb 
+# Start time: 18:44:44 on Sep 06,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
+# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
+# //  Questa Sim-64
+# //  Version 2024.1 win64 Feb  1 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading work.tb(fast)
+# run -all
+# ----------------------------------------------------------------
+# Input                     : A = 00, B = 00, Cin = 0
+# Gate-Level Output         : Sum = 00, Cout = 0
+# Structural-Level Output   : Sum = 00, Cout = 0
+# Behavioral-Level Output   : Sum = 00, Cout = 0
+# ----------------------------------------------------------------
+# Input                     : A = 00, B = 01, Cin = 0
+# Gate-Level Output         : Sum = 01, Cout = 0
+# Structural-Level Output   : Sum = 01, Cout = 0
+# Behavioral-Level Output   : Sum = 01, Cout = 0
+# ----------------------------------------------------------------
+# Input                     : A = 00, B = 10, Cin = 0
+# Gate-Level Output         : Sum = 10, Cout = 0
+# Structural-Level Output   : Sum = 10, Cout = 0
+# Behavioral-Level Output   : Sum = 10, Cout = 0
+# ----------------------------------------------------------------
+# Input                     : A = 00, B = 11, Cin = 0
+# Gate-Level Output         : Sum = 11, Cout = 0
+# Structural-Level Output   : Sum = 11, Cout = 0
+# Behavioral-Level Output   : Sum = 11, Cout = 0
+# ----------------------------------------------------------------
+# Input                     : A = 01, B = 00, Cin = 0
+# Gate-Level Output         : Sum = 01, Cout = 0
+# Structural-Level Output   : Sum = 01, Cout = 0
+# Behavioral-Level Output   : Sum = 01, Cout = 0
+# ----------------------------------------------------------------
+# Input                     : A = 01, B = 01, Cin = 0
+# Gate-Level Output         : Sum = 10, Cout = 0
+# Structural-Level Output   : Sum = 10, Cout = 0
+# Behavioral-Level Output   : Sum = 10, Cout = 0
+# ----------------------------------------------------------------
+# Input                     : A = 01, B = 10, Cin = 0
+# Gate-Level Output         : Sum = 11, Cout = 0
+# Structural-Level Output   : Sum = 11, Cout = 0
+# Behavioral-Level Output   : Sum = 11, Cout = 0
+# ----------------------------------------------------------------
+# Input                     : A = 01, B = 11, Cin = 0
+# Gate-Level Output         : Sum = 00, Cout = 1
+# Structural-Level Output   : Sum = 00, Cout = 1
+# Behavioral-Level Output   : Sum = 00, Cout = 1
+# ----------------------------------------------------------------
+# Input                     : A = 10, B = 00, Cin = 0
+# Gate-Level Output         : Sum = 10, Cout = 0
+# Structural-Level Output   : Sum = 10, Cout = 0
+# Behavioral-Level Output   : Sum = 10, Cout = 0
+# ----------------------------------------------------------------
+# Input                     : A = 10, B = 01, Cin = 0
+# Gate-Level Output         : Sum = 11, Cout = 0
+# Structural-Level Output   : Sum = 11, Cout = 0
+# Behavioral-Level Output   : Sum = 11, Cout = 0
+# ----------------------------------------------------------------
+# Input                     : A = 10, B = 10, Cin = 0
+# Gate-Level Output         : Sum = 00, Cout = 1
+# Structural-Level Output   : Sum = 00, Cout = 1
+# Behavioral-Level Output   : Sum = 00, Cout = 1
+# ----------------------------------------------------------------
+# Input                     : A = 10, B = 11, Cin = 0
+# Gate-Level Output         : Sum = 01, Cout = 1
+# Structural-Level Output   : Sum = 01, Cout = 1
+# Behavioral-Level Output   : Sum = 01, Cout = 1
+# ----------------------------------------------------------------
+# Input                     : A = 11, B = 00, Cin = 0
+# Gate-Level Output         : Sum = 11, Cout = 0
+# Structural-Level Output   : Sum = 11, Cout = 0
+# Behavioral-Level Output   : Sum = 11, Cout = 0
+# ----------------------------------------------------------------
+# Input                     : A = 11, B = 01, Cin = 0
+# Gate-Level Output         : Sum = 00, Cout = 1
+# Structural-Level Output   : Sum = 00, Cout = 1
+# Behavioral-Level Output   : Sum = 00, Cout = 1
+# ----------------------------------------------------------------
+# Input                     : A = 11, B = 10, Cin = 0
+# Gate-Level Output         : Sum = 01, Cout = 1
+# Structural-Level Output   : Sum = 01, Cout = 1
+# Behavioral-Level Output   : Sum = 01, Cout = 1
+# ----------------------------------------------------------------
+# Input                     : A = 11, B = 11, Cin = 0
+# Gate-Level Output         : Sum = 10, Cout = 1
+# Structural-Level Output   : Sum = 10, Cout = 1
+# Behavioral-Level Output   : Sum = 10, Cout = 1
+# ----------------------------------------------------------------
+# Input                     : A = 00, B = 00, Cin = 1
+# Gate-Level Output         : Sum = 01, Cout = 0
+# Structural-Level Output   : Sum = 01, Cout = 0
+# Behavioral-Level Output   : Sum = 01, Cout = 0
+# ----------------------------------------------------------------
+# Input                     : A = 01, B = 01, Cin = 1
+# Gate-Level Output         : Sum = 11, Cout = 0
+# Structural-Level Output   : Sum = 11, Cout = 0
+# Behavioral-Level Output   : Sum = 11, Cout = 0
+# ----------------------------------------------------------------
+# Input                     : A = 10, B = 10, Cin = 1
+# Gate-Level Output         : Sum = 01, Cout = 1
+# Structural-Level Output   : Sum = 01, Cout = 1
+# Behavioral-Level Output   : Sum = 01, Cout = 1
+# ----------------------------------------------------------------
+# Input                     : A = 11, B = 11, Cin = 1
+# Gate-Level Output         : Sum = 11, Cout = 1
+# Structural-Level Output   : Sum = 11, Cout = 1
+# Behavioral-Level Output   : Sum = 11, Cout = 1
+# ** Note: $finish    : ./Testbench.v(195)
+#    Time: 200 ns  Iteration: 0  Instance: /tb
+# End time: 18:44:45 on Sep 06,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
