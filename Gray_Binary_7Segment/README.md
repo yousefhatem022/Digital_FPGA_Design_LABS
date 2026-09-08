@@ -341,7 +341,7 @@ The waveform confirms the conversion from Gray Code to Binary and the correspond
 
 ### Simulation Waveform
 
-![Simulation Waveform](WaveForm.png)
+![Simulation Waveform](Results/WaveForm.png)
 
 ---
 
