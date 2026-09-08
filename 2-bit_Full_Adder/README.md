@@ -189,7 +189,7 @@ The results show that the three implementations produce identical `Sum` and `Cou
 
 The complete simulation transcript is available in:
 
-**[transcript](transcript)**
+**[transcript](Results/transcript)**
 
 ---
 
@@ -199,7 +199,7 @@ The complete simulation transcript is available in:
 
 The binary waveform shows the input signals and the corresponding outputs from the three Full Adder implementations.
 
-![Binary Waveform](WaveForm_Binary.png)
+![Binary Waveform](Results/WaveForm_Binary.png)
 
 ---
 
@@ -207,7 +207,7 @@ The binary waveform shows the input signals and the corresponding outputs from t
 
 The decimal waveform provides another representation of the simulation results for easier numerical interpretation.
 
-![Decimal Waveform](WaveForm_Decimal.png)
+![Decimal Waveform](Results/WaveForm_Decimal.png)
 
 ---
 
