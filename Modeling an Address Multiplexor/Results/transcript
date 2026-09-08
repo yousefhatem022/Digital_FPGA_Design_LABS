@@ -1,0 +1,48 @@
+# Reading pref.tcl
+# //  Questa Sim-64
+# //  Version 2024.1 win64 Feb  1 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# vsim -gui -voptargs="+acc" work.multiplexor_test 
+# Start time: 22:06:52 on Sep 08,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
+# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.multiplexor_test(fast)
+# Loading work.multiplexor(fast)
+vsim -voptargs=+acc work.multiplexor_test
+# End time: 22:07:02 on Sep 08,2026, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.multiplexor_test 
+# Start time: 22:07:02 on Sep 08,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.multiplexor_test(fast)
+# Loading work.multiplexor(fast)
+add wave -position insertpoint  \
+sim:/multiplexor_test/WIDTH \
+sim:/multiplexor_test/sel \
+sim:/multiplexor_test/in0 \
+sim:/multiplexor_test/in1 \
+sim:/multiplexor_test/mux_out
+run -all
+# At time 1 sel=0 in0=10101 in1=00000, mux_out=10101
+# At time 2 sel=0 in0=01010 in1=00000, mux_out=01010
+# At time 3 sel=1 in0=00000 in1=10101, mux_out=10101
+# At time 4 sel=1 in0=00000 in1=01010, mux_out=01010
+# TEST PASSED
+# ** Note: $finish    : ./multiplexor_test.v(43)
+#    Time: 4 ns  Iteration: 0  Instance: /multiplexor_test
+# 1
+# Break in Module multiplexor_test at ./multiplexor_test.v line 43
