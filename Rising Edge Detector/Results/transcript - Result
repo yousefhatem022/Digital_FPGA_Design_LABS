@@ -1,0 +1,42 @@
+# vsim -c -do "run -all; quit" Rising_Edge_TB 
+# Start time: 17:07:41 on Sep 10,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Support of the MGLS_LICENSE_FILE and LM_LICENSE_FILE licensing environment variables will be discontinued starting with the 2025.1 release. Please update to using the SALT_LICENSE_SERVER variable.
+# Please contact Siemens EDA Customer Support (https://support.sw.siemens.com/) for assistance.
+# //  Questa Sim-64
+# //  Version 2024.1 win64 Feb  1 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading work.Rising_Edge_TB(fast)
+# run -all
+# Time=0     | CLK=0 | RST=1 | LEVEL=0 | MOORE_STATE=00 | MOORE_TICK=0 | MEALY_STATE=00 | MEALY_TICK=0 | 
+# Time=5000  | CLK=1 | RST=1 | LEVEL=0 | MOORE_STATE=00 | MOORE_TICK=0 | MEALY_STATE=00 | MEALY_TICK=0 | 
+# Time=10000 | CLK=0 | RST=0 | LEVEL=0 | MOORE_STATE=00 | MOORE_TICK=0 | MEALY_STATE=00 | MEALY_TICK=0 | 
+# Time=15000 | CLK=1 | RST=0 | LEVEL=1 | MOORE_STATE=00 | MOORE_TICK=0 | MEALY_STATE=00 | MEALY_TICK=1 | 
+# Time=20000 | CLK=0 | RST=0 | LEVEL=1 | MOORE_STATE=00 | MOORE_TICK=0 | MEALY_STATE=00 | MEALY_TICK=1 | 
+# Time=25000 | CLK=1 | RST=0 | LEVEL=1 | MOORE_STATE=01 | MOORE_TICK=1 | MEALY_STATE=01 | MEALY_TICK=0 | 
+# Time=30000 | CLK=0 | RST=0 | LEVEL=1 | MOORE_STATE=01 | MOORE_TICK=1 | MEALY_STATE=01 | MEALY_TICK=0 | 
+# Time=35000 | CLK=1 | RST=0 | LEVEL=0 | MOORE_STATE=10 | MOORE_TICK=0 | MEALY_STATE=01 | MEALY_TICK=0 | 
+# Time=40000 | CLK=0 | RST=0 | LEVEL=0 | MOORE_STATE=10 | MOORE_TICK=0 | MEALY_STATE=01 | MEALY_TICK=0 | 
+# Time=45000 | CLK=1 | RST=0 | LEVEL=0 | MOORE_STATE=00 | MOORE_TICK=0 | MEALY_STATE=00 | MEALY_TICK=0 | 
+# Time=50000 | CLK=0 | RST=0 | LEVEL=1 | MOORE_STATE=00 | MOORE_TICK=0 | MEALY_STATE=00 | MEALY_TICK=1 | 
+# Time=55000 | CLK=1 | RST=0 | LEVEL=1 | MOORE_STATE=01 | MOORE_TICK=1 | MEALY_STATE=01 | MEALY_TICK=0 | 
+# Time=60000 | CLK=0 | RST=0 | LEVEL=1 | MOORE_STATE=01 | MOORE_TICK=1 | MEALY_STATE=01 | MEALY_TICK=0 | 
+# Time=65000 | CLK=1 | RST=0 | LEVEL=1 | MOORE_STATE=10 | MOORE_TICK=0 | MEALY_STATE=01 | MEALY_TICK=0 | 
+# Time=70000 | CLK=0 | RST=0 | LEVEL=1 | MOORE_STATE=10 | MOORE_TICK=0 | MEALY_STATE=01 | MEALY_TICK=0 | 
+# Time=75000 | CLK=1 | RST=0 | LEVEL=1 | MOORE_STATE=10 | MOORE_TICK=0 | MEALY_STATE=01 | MEALY_TICK=0 | 
+# Time=80000 | CLK=0 | RST=0 | LEVEL=0 | MOORE_STATE=10 | MOORE_TICK=0 | MEALY_STATE=01 | MEALY_TICK=0 | 
+# ** Note: $finish    : ./Rising_Edge_TB.v(86)
+#    Time: 85 ns  Iteration: 0  Instance: /Rising_Edge_TB
+# End time: 17:07:42 on Sep 10,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
