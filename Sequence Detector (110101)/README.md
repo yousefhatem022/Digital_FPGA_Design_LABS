@@ -207,7 +207,8 @@ All four FSM implementations produced results that matched the expected detectio
 
 The simulation waveform showing the input sequence and the corresponding outputs of all four FSMs is available here:
 
-[Waveform](Results/WaveForm.png)
+### Simulation Waveform
+
 ![Waveform](Results/WaveForm.png)
 
 ## 13. Project Files
