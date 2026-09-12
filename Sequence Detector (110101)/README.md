@@ -209,7 +209,7 @@ The simulation waveform showing the input sequence and the corresponding outputs
 
 ### Simulation Waveform
 
-![Waveform](Results/WaveForm.png)
+![Simulation Waveform](Results/WaveForm.png)
 
 ## 13. Project Files
 
