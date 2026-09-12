@@ -230,20 +230,18 @@ Errors: 0, Warnings: 0
 
 The resulting waveform, showing `level` transitions alongside the detector ticks, counts, and 7-segment outputs, is shown below:
 
-![Simulation Waveform](WaveForm.png)
+![Simulation Waveform](Results/WaveForm.png)
 
 ## FPGA Hardware Results
 
 The design was also deployed and tested on an FPGA development board. Screenshots captured from the board during hardware testing are included in the `FPGA_Dev_Board_Results/` folder:
 
-![FPGA Result 1](FPGA_Dev_Board_Results/Screenshot%202026-09-10%20223910.png)
-![FPGA Result 2](FPGA_Dev_Board_Results/Screenshot%202026-09-10%20223913.png)
-![FPGA Result 3](FPGA_Dev_Board_Results/Screenshot%202026-09-10%20223937.png)
-![FPGA Result 4](FPGA_Dev_Board_Results/Screenshot%202026-09-10%20223945.png)
-![FPGA Result 5](FPGA_Dev_Board_Results/Screenshot%202026-09-10%20223958.png)
-![FPGA Result 6](FPGA_Dev_Board_Results/Screenshot%202026-09-10%20224008.png)
-![FPGA Result 7](FPGA_Dev_Board_Results/Screenshot%202026-09-10%20224031.png)
-![FPGA Result 8](FPGA_Dev_Board_Results/Screenshot%202026-09-10%20224057.png)
+![FPGA Result 1](FPGA_Dev_Board_Results/Screenshot%202026-09-10%20223913.png)
+![FPGA Result 2](FPGA_Dev_Board_Results/Screenshot%202026-09-10%20223945.png)
+![FPGA Result 3](FPGA_Dev_Board_Results/Screenshot%202026-09-10%20223958.png)
+![FPGA Result 4](FPGA_Dev_Board_Results/Screenshot%202026-09-10%20224008.png)
+![FPGA Result 5](FPGA_Dev_Board_Results/Screenshot%202026-09-10%20224031.png)
+![FPGA Result 6](FPGA_Dev_Board_Results/Screenshot%202026-09-10%20224057.png)
 
 ## Project Structure
 
