@@ -111,8 +111,10 @@ end
 
 ## 7. State Diagram
 
-- Moore FSM state diagram: [Moore State Diagram](Moore_State_diagram.png)
-- Mealy FSM state diagram: [Mealy State Diagram](Mealy_State_diagram.png)
+- Moore FSM state diagram: 
+![Moore State Diagram](Moore_State_diagram.png)
+- Mealy FSM state diagram: 
+[!Mealy State Diagram](Mealy_State_diagram.png)
 
 ## 8. Design Architecture
 
@@ -232,9 +234,9 @@ Sequence Detector (110101)/
 - [Design](Design.png) — overall design/architecture illustration
 - [Moore State Diagram](Moore_State_diagram.png) — state diagram used by both Moore implementations
 - [Mealy State Diagram](Mealy_State_diagram.png) — state diagram used by both Mealy implementations
-- `Moore_Overlapping.sv` / `Moore_NonOverlapping.sv` — Moore FSM implementations
-- `Mealy_Overlapping.sv` / `Mealy_NonOverlapping.sv` — Mealy FSM implementations
-- `TestBench.sv` — verification file that instantiates and drives all four FSM designs
+- [Moore_Overlapping.sv](Moore_Overlapping.sv) / [Moore_NonOverlapping.sv](Moore_NonOverlapping.sv) — Moore FSM implementations
+- [Mealy_Overlapping.sv](Mealy_Overlapping.sv) / [Mealy_NonOverlapping.sv](Mealy_NonOverlapping.sv) — Mealy FSM implementations
+- [TestBench.sv](TestBench.sv) — verification file that instantiates and drives all four FSM designs
 - [Simulation Transcript](Results/transcript_Result) — recorded simulation log
 - [Waveform](Results/WaveForm.png) — waveform capture of the simulation
 
