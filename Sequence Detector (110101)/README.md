@@ -109,12 +109,19 @@ S5: begin
 end
 ```
 
-## 7. State Diagram
+## 7. State Diagrams
 
-- Moore FSM state diagram: 
-![Moore State Diagram](Moore_State_diagram.png)
-- Mealy FSM state diagram: 
-[!Mealy State Diagram](Mealy_State_diagram.png)
+### Moore FSM
+
+<p align="center">
+  <img src="Moore_State_diagram.png" alt="Moore FSM State Diagram" width="700">
+</p>
+
+### Mealy FSM
+
+<p align="center">
+  <img src="Mealy_State_diagram.png" alt="Mealy FSM State Diagram" width="700">
+</p>
 
 ## 8. Design Architecture
 
