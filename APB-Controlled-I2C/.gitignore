@@ -1,0 +1,171 @@
+# =========================
+# Verilog / SystemVerilog
+# =========================
+
+# Simulation waveforms
+*.vcd
+*.fst
+*.ghw
+*.wlf
+*.vpd
+
+# Simulation logs / outputs
+*.log
+*.out
+*.trn
+*.shm
+
+# Icarus Verilog
+*.vvp
+sim
+*_sim
+iverilog/
+sim/
+
+# Verilator
+obj_dir/
+*.d
+*.vcd
+
+# GTKWave
+*.gtkw
+
+# =========================
+# Yosys / Synthesis
+# =========================
+
+# Yosys generated files
+*.json
+*.il
+*.blif
+*.edif
+*.dot
+*.rtlil
+
+# Synthesis reports / logs
+synth/
+synthesis/
+reports/
+
+# ABC
+*.aig
+*.aiger
+
+# =========================
+# FPGA / Quartus
+# =========================
+
+# Quartus generated files
+db/
+incremental_db/
+simulation/
+output_files/
+greybox_tmp/
+*.qws
+*.qws.bak
+*.smsg
+*.rpt
+*.summary
+*.pin
+*.sof
+*.pof
+*.jic
+*.qdb
+*.qsf.bak
+*.sdc.bak
+
+# Quartus compilation database
+*.cmp
+*.done
+*.qws
+
+# =========================
+# Vivado
+# =========================
+
+.vivado/
+vivado/
+.cache/
+.hw/
+.ip_user_files/
+.sim/
+.gen/
+.xpr
+*.jou
+*.str
+*.log
+
+# Vivado generated runs
+runs/
+*.bit
+*.ltx
+
+# =========================
+# ModelSim / Questa
+# =========================
+
+*.wlf
+transcript
+modelsim.ini
+questa.ini
+work/
+*.mpf
+*.mti
+*.ucdb
+
+# =========================
+# Verilog temporary files
+# =========================
+
+*.bak
+*.tmp
+*.swp
+*.swo
+*~
+
+# =========================
+# OS files
+# =========================
+
+# Linux
+.directory
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Editors / IDEs
+# =========================
+
+.vscode/
+.idea/
+*.code-workspace
+
+# Vim
+*.swp
+*.swo
+
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# =========================
+# Build artifacts
+# =========================
+
+build/
+dist/
+generated/
